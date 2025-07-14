@@ -1,0 +1,376 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(251, 251, 231, 255);
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.left img.header-logo {
+  height: 40px;
+} */
+
+/* Hide checkbox */
+/* #menu-toggle {
+  display: none;
+} */
+
+/* Hamburger icon */
+/* .menu-icon {
+  display: none;
+  font-size: 28px;
+  /* cursor: pointer; */
+
+
+/* Navigation styles */
+/* .right nav {
+  display: flex;
+  gap: 20px;
+}
+
+.right nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s; */
+
+
+/* Responsive CSS */
+/* @media (max-width: 768px) {
+  .right {
+    display: none;
+    width: 100%;
+    background-color: rgba(251, 251, 231, 255);
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+  .right nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  } */
+
+  /* Show menu when checkbox is checked */
+  /* #menu-toggle:checked ~ .right {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+#menu-toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .right {
+    width: 100%;
+    display: none;
+  }
+} */
+-------------------------------------------------------
+    /* <input type= "checkbox" id="menu-toggle" > */
+    /* <label for="menu-toggle" class="menu-icon">&#9776;</label> */
+
+-------------------------------------------------------
+-------------------------------------------------------
+/* 
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.abt1 {
+  flex: 1 1 300px;
+  min-height: 300px;
+  background: url("about.png") center/cover no-repeat;
+}
+
+.abt2 {
+  flex: 1 1 500px;
+  padding: 20px;
+}
+
+.wlcm h1 {
+  font-size: 2rem;
+}
+
+.abt3 {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.arrow, .arrow2 {
+  flex: 1 1 200px;
+}
+
+.ar-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rm {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgba(240, 248, 255, 0.7);
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.rm:hover {
+    transition: 0.99s;
+    color: black;
+    box-shadow: inset 0 -100px 0 0 rgba(179, 144, 110, 255);
+
+}
+
+.rm:active {
+    transform: scale(0.99);
+
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .ar-main {
+    flex-direction: column;
+  }
+
+  .abt1 {
+    min-height: 200px;
+  }
+
+  .wlcm h1 {
+    font-size: 1.5rem;
+  }
+}
+
+---------------------------------------------------------------------------
+
+.section {
+    height: 90vh;
+    width: 100%;
+    background-image: url("lady3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section p {
+    color: white;
+}
+
+.p22 {
+    font-size: clamp(40px, 8vw, 90px);
+    animation: parth 3s forwards;
+    position: relative;
+}
+
+.p33 {
+    font-size: clamp(16px, 3vw, 30px);
+    animation: harsh 3s 3s forwards; /* Delay matches p22 duration */
+    /* position: relative;
+    visibility: hidden; */
+
+
+----------------------------------------------------------------------------------------- */
+/* Animation for Univex University */
+/* @keyframes parth { */
+    /* from {
+        left: -950px;
+    }
+
+    to {
+        left: -450px;
+    } */
+/* } */
+
+/* Animation for the slogan */
+/* @keyframes harsh {
+    0% {
+        left: -950px;
+        visibility: visible; */
+        /* Become visible when animation starts */
+    /* }
+
+    100% {
+        left: -450px;
+        visibility: visible;
+    }
+}
+
+
+--------------------------------------------------------------------------------------------
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.m1 {
+    flex: 1 1 300px;
+    min-height: 300px;
+    background: url("your-image.png") no-repeat center/cover;
+}
+
+.m2 {
+    flex: 2 1 400px;
+    max-width: 800px;
+}
+
+.m2 h2 {
+    font-size: clamp(20px, 4vw, 32px);
+}
+
+.m2 p, .m2 li {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 1.6;
+} */
+
+/* For the .sub section */
+/* .sub {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.sub p {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 1.6;
+}
+
+/* Optional: Media query for very small screens */
+/* @media (max-width: 600px) {
+    .main1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .m2 {
+        max-width: 100%;
+    }
+} */ 
+-----------------------------------------------------------------------------
+/* @media (max-width: 992px) {
+    .main2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .head {
+        margin-left: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .banner img {
+        height: auto;
+        max-height: 300px;
+    }
+} */
+-------------------------------------------------------------------------------------------------
+/* <style>
+    .c-main {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .f1, .f2, .f3, .f4 {
+        flex: 1 1 250px;
+        max-width: 260px;
+        height: auto;
+    }
+
+    .f1 img, .f2 img, .f3 img, .f4 img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    @media (max-width: 768px) {
+        .c-main {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .f1, .f2, .f3, .f4 {
+            width: 90%;
+            max-width: 300px;
+        }
+    }
+</style> */
+-------------------------------------------------------------------
+
+/* @media (max-width: 768px) {
+    .main3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .b4, .b5, .b6 {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .banner img {
+        height: auto;
+    }
+
+    .head {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+} */
